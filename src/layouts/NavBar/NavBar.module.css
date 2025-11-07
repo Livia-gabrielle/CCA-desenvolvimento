@@ -6,10 +6,14 @@
     padding: 10px 0;
 }
 
-.containerHeader {
-    width: 90%;
+.containerHeader{
+    position: relative;
+}
+
+.cardHeader {
+    width: 99vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -18,7 +22,11 @@
     color: white;
     padding: 5px 5px;
     transition: var(--trsBck), var(--trsTrf);
+    position: absolute;
+    top: 50%;
+    left: 0;
     border-radius: 10px;
+    transform: translateY(-50%);
 }
 
 .iconMenuBar:hover{
@@ -30,13 +38,27 @@
     transform: scale(0.90);
 }
 
+
 .containerLogo {
     display: flex;
     gap: 5px;
     color: white;
     align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+    transition: var(--trsBck);
 }
 
-.containerHeader .containerLogo img {
+.containerLogo:hover{
+    background-color: var(--eftHvrTrp);
+    cursor: pointer;
+}
+
+.cardHeader .containerLogo img {
     height: 50px;
+}
+
+.cardHeader .containerLogo h1{
+    font-family: 'Kanit';
+    letter-spacing: 3px;
 }
