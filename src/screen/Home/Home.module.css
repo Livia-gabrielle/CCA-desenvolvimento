@@ -1,0 +1,39 @@
+.containerHome{
+    min-height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.cardHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.cardHome h2{
+    font-size: 30px;
+}
+
+.cardHome img{
+    height: 178px;
+}
+
+.cardHome p{
+    font-size: 20px;
+}
+
+.cardHome .pgMaior{
+    max-width: 1500px;
+}
+
+.cardHome .pgMenor{
+    max-width: 800px;
+}
+
+.cardHome p, .cardHome h2{
+    text-align: center;
+}
