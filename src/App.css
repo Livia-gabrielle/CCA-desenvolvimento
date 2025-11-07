@@ -1,8 +1,8 @@
 :root{
   --border: 1px solid red;
-  --trsBck: background-image 0.3s ease;
+  --trsBck: background-color 0.3s ease;
   --trsTrf: transform 0.3s ease;
-  --eftHvr: #9999999a; 
+  --eftHvrTrp: #bbbbbb63; 
 }
 
 * {

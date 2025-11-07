@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #0986CA, #044364);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.containerHeader {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconMenuBar {
+    font-size: 40px;
+    color: white;
+    padding: 5px 5px;
+    transition: var(--trsBck), var(--trsTrf);
+    border-radius: 10px;
+}
+
+.iconMenuBar:hover{
+    background-color: var(--eftHvrTrp);
+    cursor: pointer;
+}
+
+.iconMenuBar:active{
+    transform: scale(0.90);
+}
+
+.containerLogo {
+    display: flex;
+    gap: 5px;
+    color: white;
+    align-items: center;
+}
+
+.containerHeader .containerLogo img {
+    height: 50px;
+}
