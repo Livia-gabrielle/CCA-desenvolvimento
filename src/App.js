@@ -10,6 +10,9 @@ import Motora from './screen/Motora/Motora'
 import Login from './screen/Login/Login';
 import Resgister from './screen/Register/Register';
 import ContarHistorias from './screen/Comunicacao/ContarHistorias/ContarHistorias';
+import CaixaSensorial from './screen/Sensoriais/CaixaSensorial/CaixaSensorial';
+import MassinhaMaizena from './screen/Sensoriais/MassinhaMaizena/MassinhaMaizena';
+import PintarPes from './screen/Sensoriais/PintarPes/PintarPes';
 
 import NavBar from './layouts/NavBar/NavBar';
 
@@ -31,6 +34,9 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Resgister />} />
           <Route path='/comunicacao/contar-historias' element={<ContarHistorias />} />
+          <Route path='/sensoriais/caixa-sensorial' element={<CaixaSensorial/>}/>
+          <Route path='/sensoriais/massinha-maizena' element={<MassinhaMaizena/>}/>
+          <Route path='/sensoriais/pintar-pes' element={<PintarPes/>}/>
         </Routes>
       </Router>
     </>
