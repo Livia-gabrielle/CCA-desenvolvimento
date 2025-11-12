@@ -13,6 +13,8 @@ import ContarHistorias from './screen/Comunicacao/ContarHistorias/ContarHistoria
 import CaixaSensorial from './screen/Sensoriais/CaixaSensorial/CaixaSensorial';
 import MassinhaMaizena from './screen/Sensoriais/MassinhaMaizena/MassinhaMaizena';
 import PintarPes from './screen/Sensoriais/PintarPes/PintarPes';
+import JogoMemoria from './screen/Cognitivo/JogoMemoria/JogoMemoria';
+import QuebraCabeca from './screen/Cognitivo/QuebraCabeca/QuebraCabeca';
 
 import NavBar from './layouts/NavBar/NavBar';
 
@@ -37,6 +39,8 @@ function App() {
           <Route path='/sensoriais/caixa-sensorial' element={<CaixaSensorial/>}/>
           <Route path='/sensoriais/massinha-maizena' element={<MassinhaMaizena/>}/>
           <Route path='/sensoriais/pintar-pes' element={<PintarPes/>}/>
+          <Route path='/cognitivo/quebra-cabeca' element={<QuebraCabeca/>}/>
+          <Route path='/cognitivo/jogo-memoria' element={<JogoMemoria/>}/>
         </Routes>
       </Router>
     </>
