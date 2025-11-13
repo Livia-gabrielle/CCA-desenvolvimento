@@ -31,7 +31,7 @@ function App() {
           <Route path='/comunicacao' element={<Comunicacao />} />
           <Route path='/sensoriais' element={<Sensoriais />} />
           <Route path='/cognitivo' element={<Cognitivo />} />
-          <Route path='/interacaosocial' element={<Interacao />} />
+          <Route path='/interacao-social' element={<Interacao />} />
           <Route path='/motora' element={<Motora />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Resgister />} />
