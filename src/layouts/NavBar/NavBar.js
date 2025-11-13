@@ -8,13 +8,18 @@ import MenuBar from '../MenuBar/MenuBar';
 
 export default function NavBar() {
     const [menu, setMenu] = useState(false)
+    const [none, setNone] = useState(false)
 
-
+    function addMenu(){
+        setMenu(true)
+        setTimeout(() => setNone(false), 100)
+    
+    }
     return (
         <>
             <header className={styles.header}>
                 <div className={styles.containerHeader}>
-                    <AiOutlineMenu onClick={() => setMenu(true)} className={styles.iconMenuBar} />
+                    <AiOutlineMenu onClick={addMenu} className={styles.iconMenuBar} />
                     <div className={styles.cardHeader}>
                         <Link className='link' to='/'>
                             <div className={styles.containerLogo}>
@@ -24,7 +29,7 @@ export default function NavBar() {
                         </Link>
                     </div>
                 </div>
-                <MenuBar setMenu={setMenu} menu={menu}/>
+                <MenuBar setNone={setNone} none={none} setMenu={setMenu} menu={menu}/>
             </header>
         </>
     )

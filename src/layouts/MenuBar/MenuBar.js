@@ -5,14 +5,14 @@ import Button from '../../components/Button/Button'
 import { IoMdClose } from "react-icons/io"
 import { useState } from 'react'
 
-export default function MenuBar({ menu, setMenu }) {
+export default function MenuBar({ menu, setMenu, none, setNone }) {
 
-    const [none, setNone] = useState(false)
     const classSection = clsx(styles.containerMenu, menu ? styles.true : styles.false, none ? styles.none : '')
 
-    // function noneMenu() {
-    //     setTimeout(() => setMenu(false), 1000)
-    // }
+    function noneMenu() {
+        setNone(true)
+        setTimeout(() => setMenu(false), 300)
+    }
 
     return (
         <>
@@ -20,7 +20,7 @@ export default function MenuBar({ menu, setMenu }) {
                 <div className={styles.cardMenu}>
                     <div className={styles.titleMenu}>
                         <span>Atividades</span>
-                        <IoMdClose onClick={() => setMenu(false)} className={styles.menuIcon} />
+                        <IoMdClose onClick={noneMenu} className={styles.menuIcon} />
                     </div>
                     <ul>
                         <li>

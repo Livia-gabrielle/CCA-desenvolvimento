@@ -8,14 +8,13 @@
     width: 17vw;
     z-index: 999;
     display: flex;
-    transition: left 0.3s ease;
-
+    transition: var(--trsTrf);
 }
 
-.containerMenu.none{
-    left: -17vw;
-
+.none{
+    transform: translateX(-100%);
 }
+
 
 .containerMenu.false{
     display: none;
