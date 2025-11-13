@@ -45,7 +45,7 @@ function App() {
           <Route path='/sensoriais/pintar-pes' element={<PintarPes />} />
           <Route path='/cognitivo/quebra-cabeca' element={<QuebraCabeca />} />
           <Route path='/cognitivo/jogo-memoria' element={<JogoMemoria />} />
-            <Route path='/interacao-social/jogo-imitacao' element={<JogoImitacao />} />
+          <Route path='/interacao-social/jogo-imitacao' element={<JogoImitacao />} />
           <Route path='/motora/pincar-objetos-pequenos' element={<PincarObjetos />} />
           <Route path='/motora/acerte-alvo' element={<AcerteAlvo />} />
           <Route path='/motora/labirinto' element={<Labirinto />} />
