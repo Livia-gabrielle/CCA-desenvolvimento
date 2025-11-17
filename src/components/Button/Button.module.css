@@ -7,11 +7,15 @@ button {
     border: none;
     border-radius: 10px;
     text-align: center;
-    transition: var(--trsBck);
+    transition: var(--trsBck), var(--trsTrf);
 }
 
 button:hover {
     cursor: pointer;
+}
+
+.button:active{
+    transform: scale(0.90);
 }
 
 .small {

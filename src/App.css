@@ -1,7 +1,7 @@
 :root{
   --border: 1px solid red;
   --trsBck: background-color 0.3s ease;
-  --trsTrf: transform 0.3s ease;
+  --trsTrf: transform 0.2s ease;
   --eftHvrTrp: #bbbbbb63; 
 }
 
@@ -21,4 +21,8 @@ body,
 
 .link{
   text-decoration: none;
+}
+
+img{
+  border-radius: 20px;
 }
