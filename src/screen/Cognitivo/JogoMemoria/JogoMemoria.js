@@ -20,7 +20,7 @@ export default function JogoMemoria() {
                         <div title='Clique ver melhor' className={styles.cardImg} >
                             <img className={styles.img} src={imgJogoMemoria} alt="Criança brincando com sua mãe de jogo da memória" />
                             <div className={styles.imgImprimirCard} >
-                                <div className={styles.after} onClick={() => {setView(true)}}>
+                                <div className={styles.after} onClick={() => { setView(true) }}>
                                     <img className={styles.imgImprimir} src={imgImprimirJogo} alt="Jogo da memória para impressão" />
                                 </div>
 
@@ -31,7 +31,7 @@ export default function JogoMemoria() {
 
                     </div>
                 </div>
-                <ViewImg setView={setView} view={view}/>
+                <ViewImg setView={setView} view={view} />
             </section>
         </>
     )
