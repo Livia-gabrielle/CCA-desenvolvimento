@@ -1,7 +1,7 @@
 import styles from './Sensoriais.module.css'
 import CardImg from '../../components/CardImg/CardImg'
 import Button from '../../components/Button/Button'
-import caixaSensoriais from '../../img/caixinhaSensorias.jpg'
+import caixaSensoriais from '../../img/imgCaixaSensorial.png'
 import massinhaSensoriais from '../../img/masinhaSensoriais.jpg'
 import tintaSensoriais from '../../img/tintaSensoriais.jpg'
 import { Link } from 'react-router-dom'
