@@ -31,7 +31,7 @@ export default function JogoMemoria() {
 
                     </div>
                 </div>
-                <ViewImg setView={setView} view={view} />
+                <ViewImg nomeImg='jogo-da-memoria' imgFather={imgImprimirJogo} setView={setView} view={view} />
             </section>
         </>
     )
